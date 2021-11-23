@@ -36,11 +36,11 @@ function img(){
         alert("Ответ верный!");
         sum++;
     } else {
-        alert("Ответ не верный");
+        alert("Ответ неверный");
     }
     num_ans++;
 if (num_ans == right_answer.length){
     document.body.remove(table);
-    alert("Total sum:" + sum);
+    alert("Итог:" + sum);
     }
 }
