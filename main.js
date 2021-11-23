@@ -1,20 +1,16 @@
 let img1 = new Image();
 img1.src = "img/1.png";
-
 let img2 = new Image();
 img2.src = "img/2.png";
-
 let img3 = new Image();
 img3.src = "img/3.png";
-
 let img4 = new Image();
 img4.src = "img/4.png";
-
 let img5 = new Image();
 img5.src = "img/5.png";
 
 let quest = [img1, img2, img3, img4, img5];
-let right_answer = [a2, a1, a2, a3, a4]
+let right_answer = [a2, a5, a5, a3, a5]
 
 let num_img = 0;
 let num_ans = 0;
@@ -37,10 +33,10 @@ function img(){
     console.log(a3.checked);
     console.log(a4.checked);
     if (right_answer[num_ans].checked){  
-        alert("Right answer");
+        alert("Ответ верный!");
         sum++;
     } else {
-        alert("Wrong answer");
+        alert("Ответ не верный");
     }
     num_ans++;
 if (num_ans == right_answer.length){
